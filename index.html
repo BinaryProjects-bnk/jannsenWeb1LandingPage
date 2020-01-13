@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<script src="https://kit.fontawesome.com/8baf7ecf86.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="contentRow">
+			<div class="desc">
+				<div class="logo">
+					<img src="./img/bk-logo.png" alt="bk logo" width="200" height="auto">
+				</div>
+				<div class="descriptioninner">
+					<h1>Binary Kiddo Is Going Mobile</h1>
+					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+					<h3>Coming Soon On</h3>
+					<div class="icons">
+						<i class="fab fa-android fa-5x" style="color: lightgreen;"></i>
+						<i class="fab fa-apple fa-5x" style="color: lightgrey;"></i>
+					</div>
+				</div>
+			</div>
+			<div class="image" height="500" width="500">
+				<img src="./img/phone.png" alt="binarryKiddo phone" height="500" width="auto">
+			</div>
+			<div class="form">
+				<div class="formCard">
+					<form>
+						<h1>Pre Register Now</h1>
+						<input type="text" placeholder="Name">
+						<input type="Email" placeholder="Email">
+						<input type="Password" placeholder="Password">
+						<input type="Password" placeholder="Confirm Password">
+						<input type="Submit" onclick="function preventdefault(){e.preventdefault()"}>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<p>&copy; <span id="year"></span> Copyright | All Rights Reserved</p>
+			<p>This website was designed by Alexander Janssen</p>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		document.getElementById("year").textContent = new Date().getFullYear()	
+	</script>
+</body>
+</html>
